@@ -1,0 +1,146 @@
+{
+  "precacheRawBytes": 9519579,
+  "precacheGzipBytes": 3718261,
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 1089,
+      "gzipBytes": 519
+    },
+    {
+      "file": "manifest.webmanifest",
+      "bytes": 443,
+      "gzipBytes": 279
+    },
+    {
+      "file": "icons/mark.svg",
+      "bytes": 308,
+      "gzipBytes": 229
+    },
+    {
+      "file": "icons/apple-touch-icon.png",
+      "bytes": 932,
+      "gzipBytes": 769
+    },
+    {
+      "file": "brand/office-pro-badge.webp",
+      "bytes": 115444,
+      "gzipBytes": 115502
+    },
+    {
+      "file": "brand/office-pro-512.png",
+      "bytes": 123162,
+      "gzipBytes": 122874
+    },
+    {
+      "file": "brand/office-pro-192.png",
+      "bytes": 22544,
+      "gzipBytes": 22566
+    },
+    {
+      "file": "brand/office-pro-180.png",
+      "bytes": 20407,
+      "gzipBytes": 20435
+    },
+    {
+      "file": "vendor/stamps/manifest.json",
+      "bytes": 1822,
+      "gzipBytes": 506
+    },
+    {
+      "file": "vendor/stamps/stamps.pdf",
+      "bytes": 67118,
+      "gzipBytes": 42329
+    },
+    {
+      "file": "assets/worker-engine-BCCrxWYm-DGflDdjZ.js",
+      "bytes": 689503,
+      "gzipBytes": 119718
+    },
+    {
+      "file": "assets/square-DANYoqqn.js",
+      "bytes": 176,
+      "gzipBytes": 166
+    },
+    {
+      "file": "assets/signature_pad-WSRARgwh.js",
+      "bytes": 15341,
+      "gzipBytes": 4513
+    },
+    {
+      "file": "assets/rolldown-runtime-BCiCTKAo.js",
+      "bytes": 1301,
+      "gzipBytes": 711
+    },
+    {
+      "file": "assets/render-R0ieRIYq.js",
+      "bytes": 443494,
+      "gzipBytes": 132321
+    },
+    {
+      "file": "assets/pdfium-BJ2Yip8Q.wasm",
+      "bytes": 4646932,
+      "gzipBytes": 2150224
+    },
+    {
+      "file": "assets/pdf.worker.min-CIqJB0yW.mjs",
+      "bytes": 1271915,
+      "gzipBytes": 380093
+    },
+    {
+      "file": "assets/jsx-runtime-BjLx7v8f.js",
+      "bytes": 8243,
+      "gzipBytes": 3113
+    },
+    {
+      "file": "assets/index-o5jpV1LK.css",
+      "bytes": 56366,
+      "gzipBytes": 12621
+    },
+    {
+      "file": "assets/index-Dhxt1vgO.js",
+      "bytes": 785191,
+      "gzipBytes": 288420
+    },
+    {
+      "file": "assets/file-plus-corner-yO4UuQwc.js",
+      "bytes": 402,
+      "gzipBytes": 278
+    },
+    {
+      "file": "assets/browser-BKLM0ThC-BCLQGPD6-DitEdrt8.js",
+      "bytes": 19411,
+      "gzipBytes": 4377
+    },
+    {
+      "file": "assets/arrow-up-Brbl56ZY.js",
+      "bytes": 328,
+      "gzipBytes": 228
+    },
+    {
+      "file": "assets/__vite-browser-external-BwpP9LFt.js",
+      "bytes": 94,
+      "gzipBytes": 108
+    },
+    {
+      "file": "assets/SignatureDialog-BBvadAsS.js",
+      "bytes": 6408,
+      "gzipBytes": 2415
+    },
+    {
+      "file": "assets/PdfWorkspace-fq75h_sd.js",
+      "bytes": 1209826,
+      "gzipBytes": 288407
+    },
+    {
+      "file": "assets/PageOrganizer-CM8-cYKX.js",
+      "bytes": 6859,
+      "gzipBytes": 2703
+    },
+    {
+      "file": "assets/ExportDialog-B5fQaoQY.js",
+      "bytes": 4520,
+      "gzipBytes": 1837
+    }
+  ]
+}

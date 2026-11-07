@@ -1,0 +1,2 @@
+Deploy ONLY from branch main, folder /docs.
+The pages.yml file is a deliberately disabled stub: no push trigger and its only job always skips. Upload it over the old workflow to prevent a conflict.

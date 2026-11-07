@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {calculate,parse,shiftFormula,cellKey} from '../src/office/formula.mjs';
+const book={sheets:[{name:'Costs',cells:{A1:{value:'3'},A2:{value:'4'},A3:{value:'=SUM(A1:A2)'},B1:{value:'=A3*2+10%'},B2:{value:'=ROUND(B1,1)'},C1:{value:'=C2'},C2:{value:'=C1'}}},{name:'Summary',cells:{A1:{value:"='Costs'!A3"}}}]};
+test('spreadsheet references, arithmetic, ranges and cross-sheet calculations',()=>{assert.equal(calculate(book,0,'A3'),7);assert.equal(calculate(book,0,'B1'),14.1);assert.equal(calculate(book,0,'B2'),14.1);assert.equal(calculate(book,1,'A1'),7);assert.equal(cellKey(2,27),'AB3');});
+test('formula errors are explicit and unsupported input never executes code',()=>{assert.equal(calculate(book,0,'C1'),'#CYCLE!');assert.throws(()=>parse('1/0',()=>0),/#DIV/);assert.throws(()=>parse('fetch("https://example.com")',()=>0),/#UNSUPPORTED/);assert.throws(()=>parse('1;alert(1)',()=>0));assert.equal(parse('IF(2>1,"yes","no")',()=>0),'yes');});
+test('relative fill preserves absolute references and quoted text',()=>{assert.equal(shiftFormula("=sum(a1:a2)+ABC1!B2+'Job 1'!C3",1,0),"=sum(A2:A3)+ABC1!B3+'Job 1'!C4");assert.equal(shiftFormula('=A1+$B$2+C$3+$D4&"A1"',2,1),'=B3+$B$2+D$3+$D6&"A1"');});

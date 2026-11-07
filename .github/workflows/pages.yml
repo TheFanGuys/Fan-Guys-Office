@@ -1,0 +1,13 @@
+# DISABLED. Fan Guys Office Pro is deployed ONLY from branch main, folder /docs.
+# Kept at the old workflow path so uploading this ZIP disables the previous workflow.
+name: DISABLED — deploy from docs instead
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  disabled:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Disabled. Use Settings > Pages > Deploy from branch > main > /docs.'

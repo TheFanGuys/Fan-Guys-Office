@@ -1,0 +1,41 @@
+FAN GUYS OFFICE PRO — V3
+
+Your app is already built. You do NOT need to run a build.
+
+1. Unzip Fan-Guys-Office-Pro-V3.zip.
+2. Replace your repository files, including the ENTIRE old /docs folder.
+3. Keep GitHub Pages set to: Deploy from a branch → main → /docs.
+4. Overwrite the old .github/workflows/pages.yml with the disabled copy included here.
+   If hidden folders cannot upload from your phone, delete the old Pages workflow.
+5. Open your existing website. Accept Save & reload if offered, then reopen old tabs.
+
+KEEP THE SAME WEBSITE ADDRESS. DO NOT CLEAR SAFARI WEBSITE DATA.
+That data contains your saved documents and signatures.
+
+NEW IN V3
+- Yellow Fan Guys Office Pro branding and home-screen icons.
+- Spreadsheets: Excel/CSV, formulas, tabs and a phone-friendly row editor.
+- Writer: proposals, letters, basic Word import, Word/PDF export.
+- Jobs & contacts, linked office files, notes and checklists.
+- Complete backup and restore for PDFs AND the new office files.
+- Existing PDF tools and GFY form fixes retained.
+
+OFFICE FILES
+Use Save now before leaving important work. For export, wait until the file is
+ready, then tap Share / Save to Files. Nothing is sent to a document server.
+
+BACK UP
+Use Backup & restore → Prepare complete backup. Store that ZIP privately.
+Backups contain documents and signature images and are not encrypted.
+Restore adds missing records and keeps current versions with matching IDs.
+Reload after restoring. Clearing browser data can erase files.
+
+LIMITS
+This is the first expanded office release, not full Microsoft Office compatibility.
+Word/Excel imports make simplified editable copies. Keep and download originals.
+Advanced Excel features, exact Word layout and presentations are not included.
+White-out is a visual cover, not secure redaction. Lock fields is not a password.
+Open optional tools while online before using them offline.
+
+README.md explains supported formats and formulas.
+TEST-RESULTS.md lists actual tests and what still needs a physical iPhone check.
