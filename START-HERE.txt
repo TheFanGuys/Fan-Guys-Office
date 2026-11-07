@@ -1,8 +1,8 @@
-FAN GUYS OFFICE PRO — V3
+FAN GUYS OFFICE — V3.1
 
 Your app is already built. You do NOT need to run a build.
 
-1. Unzip Fan-Guys-Office-Pro-V3.zip.
+1. Unzip Fan-Guys-Office-V3.1.zip.
 2. Replace your repository files, including the ENTIRE old /docs folder.
 3. Keep GitHub Pages set to: Deploy from a branch → main → /docs.
 4. Overwrite the old .github/workflows/pages.yml with the disabled copy included here.
@@ -12,13 +12,21 @@ Your app is already built. You do NOT need to run a build.
 KEEP THE SAME WEBSITE ADDRESS. DO NOT CLEAR SAFARI WEBSITE DATA.
 That data contains your saved documents and signatures.
 
-NEW IN V3
-- Yellow Fan Guys Office Pro branding and home-screen icons.
+WHAT’S INCLUDED
+- Red Fan Guys Office branding and home-screen icons.
 - Spreadsheets: Excel/CSV, formulas, tabs and a phone-friendly row editor.
-- Writer: proposals, letters, basic Word import, Word/PDF export.
+- Writer: 13 blue-logo Fan Guys templates, basic Word import, Word/PDF export.
 - Jobs & contacts, linked office files, notes and checklists.
 - Complete backup and restore for PDFs AND the new office files.
 - Existing PDF tools and GFY form fixes retained.
+
+FAN GUYS TEMPLATES
+Open Writer. Choose a template or tap Show all 13 templates. Pick a saved
+job first if you want the app to fill in its available contact and site details.
+Edit the bracketed placeholders. The blue logo is included in Word and PDF exports.
+To change the logo layout or save your contact details for future documents,
+open Blue logo and letterhead details. The ZIP also includes 13 Word copies
+in Ready-to-use-Word-templates.
 
 OFFICE FILES
 Use Save now before leaving important work. For export, wait until the file is

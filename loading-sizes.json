@@ -1,16 +1,16 @@
 {
-  "precacheRawBytes": 9519579,
-  "precacheGzipBytes": 3718261,
+  "precacheRawBytes": 9523812,
+  "precacheGzipBytes": 3718450,
   "files": [
     {
       "file": "index.html",
-      "bytes": 1089,
-      "gzipBytes": 519
+      "bytes": 1065,
+      "gzipBytes": 513
     },
     {
       "file": "manifest.webmanifest",
-      "bytes": 443,
-      "gzipBytes": 279
+      "bytes": 427,
+      "gzipBytes": 269
     },
     {
       "file": "icons/mark.svg",
@@ -23,24 +23,24 @@
       "gzipBytes": 769
     },
     {
-      "file": "brand/office-pro-badge.webp",
-      "bytes": 115444,
-      "gzipBytes": 115502
+      "file": "brand/office-badge.webp",
+      "bytes": 107480,
+      "gzipBytes": 107533
     },
     {
-      "file": "brand/office-pro-512.png",
-      "bytes": 123162,
-      "gzipBytes": 122874
+      "file": "brand/office-512.png",
+      "bytes": 130341,
+      "gzipBytes": 130149
     },
     {
-      "file": "brand/office-pro-192.png",
-      "bytes": 22544,
-      "gzipBytes": 22566
+      "file": "brand/office-192.png",
+      "bytes": 23359,
+      "gzipBytes": 23383
     },
     {
-      "file": "brand/office-pro-180.png",
-      "bytes": 20407,
-      "gzipBytes": 20435
+      "file": "brand/office-180.png",
+      "bytes": 20901,
+      "gzipBytes": 20929
     },
     {
       "file": "vendor/stamps/manifest.json",
@@ -53,14 +53,14 @@
       "gzipBytes": 42329
     },
     {
-      "file": "assets/worker-engine-BCCrxWYm-DGflDdjZ.js",
+      "file": "assets/worker-engine-BCCrxWYm-DnK9LfdU.js",
       "bytes": 689503,
-      "gzipBytes": 119718
+      "gzipBytes": 119719
     },
     {
-      "file": "assets/square-DANYoqqn.js",
+      "file": "assets/square-BKjl-Bnv.js",
       "bytes": 176,
-      "gzipBytes": 166
+      "gzipBytes": 170
     },
     {
       "file": "assets/signature_pad-WSRARgwh.js",
@@ -93,29 +93,29 @@
       "gzipBytes": 3113
     },
     {
-      "file": "assets/index-o5jpV1LK.css",
-      "bytes": 56366,
-      "gzipBytes": 12621
+      "file": "assets/index-DYv-SKJp.js",
+      "bytes": 785185,
+      "gzipBytes": 288428
     },
     {
-      "file": "assets/index-Dhxt1vgO.js",
-      "bytes": 785191,
-      "gzipBytes": 288420
+      "file": "assets/index-BYebcZi3.css",
+      "bytes": 60121,
+      "gzipBytes": 12184
     },
     {
-      "file": "assets/file-plus-corner-yO4UuQwc.js",
+      "file": "assets/file-plus-corner-C6kGvbMT.js",
       "bytes": 402,
-      "gzipBytes": 278
+      "gzipBytes": 279
     },
     {
-      "file": "assets/browser-BKLM0ThC-BCLQGPD6-DitEdrt8.js",
+      "file": "assets/browser-BKLM0ThC-BCLQGPD6-BVK2OBrb.js",
       "bytes": 19411,
-      "gzipBytes": 4377
+      "gzipBytes": 4375
     },
     {
-      "file": "assets/arrow-up-Brbl56ZY.js",
+      "file": "assets/arrow-up-FioBV2rc.js",
       "bytes": 328,
-      "gzipBytes": 228
+      "gzipBytes": 231
     },
     {
       "file": "assets/__vite-browser-external-BwpP9LFt.js",
@@ -123,24 +123,24 @@
       "gzipBytes": 108
     },
     {
-      "file": "assets/SignatureDialog-BBvadAsS.js",
+      "file": "assets/SignatureDialog-PqTV8deL.js",
       "bytes": 6408,
-      "gzipBytes": 2415
+      "gzipBytes": 2416
     },
     {
-      "file": "assets/PdfWorkspace-fq75h_sd.js",
+      "file": "assets/PdfWorkspace-BeDjnn45.js",
       "bytes": 1209826,
-      "gzipBytes": 288407
+      "gzipBytes": 288415
     },
     {
-      "file": "assets/PageOrganizer-CM8-cYKX.js",
+      "file": "assets/PageOrganizer-Cmc0TVgv.js",
       "bytes": 6859,
-      "gzipBytes": 2703
+      "gzipBytes": 2702
     },
     {
-      "file": "assets/ExportDialog-B5fQaoQY.js",
+      "file": "assets/ExportDialog-Y2vcYMa4.js",
       "bytes": 4520,
-      "gzipBytes": 1837
+      "gzipBytes": 1839
     }
   ]
 }

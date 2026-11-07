@@ -346,7 +346,7 @@ workbox-routing 7.4.1 — MIT
 workbox-strategies 7.4.1 — MIT
 @embedpdf/default-stamps 0.0.1 — MIT (bundled locally; no runtime CDN requests)
 
-Fan Guys Office Pro V3 additions:
+Fan Guys Office additions:
 - ExcelJS 4.4.0 — MIT: workbook import and export.
 - docx 9.5.1 — MIT: editable Word document generation.
 - ProseMirror model/state/view/commands/history/keymap/schema-basic/schema-list — MIT: rich document editing.

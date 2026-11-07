@@ -1,4 +1,4 @@
-# Fan Guys Office Pro — V3
+# Fan Guys Office — V3.1
 
 A free, private office workspace for your iPhone and computer. Hosted as static files on your existing GitHub Pages repository. Files stay in this browser on this device. No document uploads, paid services, API keys, sign-in, telemetry or cloud dependencies.
 
@@ -6,7 +6,7 @@ A free, private office workspace for your iPhone and computer. Hosted as static 
 
 ## Update your existing website
 
-1. Download and unzip `Fan-Guys-Office-Pro-V3.zip`.
+1. Download and unzip `Fan-Guys-Office-V3.1.zip`.
 2. Replace the repository files with this ZIP's contents. Replace the ENTIRE old `/docs` folder, rather than adding another set of assets to it.
 3. Keep GitHub Settings → Pages → Deploy from a branch → `main` → `/docs`.
 4. The included `.github/workflows/pages.yml` is deliberately disabled. Upload it over the old workflow, or delete the old Pages Actions workflow if your phone cannot upload hidden folders. There is only one deployment method: `/docs`.
@@ -14,9 +14,9 @@ A free, private office workspace for your iPhone and computer. Hosted as static 
 
 **Do not clear Safari website data to update. That would remove your saved files.** Your repository name and URL do not need to change. The existing app database remains `pdf-pro-v1`, so PDFs, originals, templates, settings and both signatures stay in place. Older Docketra data still migrates automatically when present.
 
-## What V3 adds
+## What’s included
 
-- Approved yellow Fan Guys Office Pro badge, home screen, sidebar, app icons and share-thumbnail file.
+- Red Fan Guys Office badge, home screen, sidebar, app icons and share thumbnail.
 - **Spreadsheets:** new workbooks, multiple sheets, formulas, bold cells, number/currency/percentage formatting, row filtering, range sorting, copy-down, undo/redo, extra rows/columns, and a large-field row editor for phones.
 - **Excel/CSV:** import an editable copy; export `.xlsx` or first-sheet CSV/PDF. Imported XLSX originals remain available to download.
 - **Writer:** headings, paragraphs, bold/italic, lists, links and editable tables, undo/redo, word count, a scope-of-work starter, simplified Word/TXT import, Word/PDF export, and opening a generated PDF directly in the existing signing workspace.
@@ -24,7 +24,13 @@ A free, private office workspace for your iPhone and computer. Hosted as static 
 - **Notes & checklists:** editable notes, checkable items, job linking and text export including the checklist.
 - **Complete backup/restore:** PDFs and imported originals, signatures/settings, PDF templates and all V3 office files in a single ZIP. Restore adds missing records and preserves current records with matching IDs. It does not overwrite newer work.
 
-The first release of this expanded suite includes these working modules. Presentations, calendar scheduling, cross-device sync, automatic job-field insertion, document history snapshots and assembling mixed office-file packages are future work; there are no placeholder buttons claiming these exist.
+The first release of this expanded suite includes these working modules. Presentations, calendar scheduling, cross-device sync, document history snapshots and assembling mixed office-file packages are future work; there are no placeholder buttons claiming these exist.
+
+## Start a Fan Guys document
+
+Open **Writer**, optionally choose a saved job, and tap a template to create an editable copy. **Show all 13 templates** reveals the full set: blank letterhead, business letter, proposal and scope of work, work order, change order, installation check-in and check-out, service report, maintenance inspection, parts request, punch list, customer follow-up and transmittal. A saved job can fill in its available contact and site details. Replace any remaining bracketed placeholders before sending.
+
+Open **Blue logo and letterhead details** to pick the wide or round blue company logo, edit contact details and save them as your default for new files. Both Word and PDF exports include the logo. The ZIP also has 13 standalone Word files in `Ready-to-use-Word-templates`. The Writer forms are editable documents; their PDF exports are flat. Use **Open as PDF to sign** to add a signature, stamps or fillable fields with the PDF tools. The included check-in and check-out are Fan Guys templates.
 
 ## Existing PDF tools retained
 
@@ -36,7 +42,7 @@ The GFY form phone fix remains: PDF inputs keep their PDF dimensions instead of 
 
 Office files autosave shortly after an edit. **Save now** confirms a device save; leaving an office workspace flushes pending saves. PDFs retain their existing autosave and Save/Export flow. Download important work as an additional backup.
 
-Office exports prepare the complete file first. Then tap **Share / Save to Files** to open the device share sheet from a fresh tap. Download is also provided. Choose Mail, Messages or another app from your device; Office Pro does not send email itself.
+Office exports prepare the complete file first. Then tap **Share / Save to Files** to open the device share sheet from a fresh tap. Download is also provided. Choose Mail, Messages or another app from your device; Fan Guys Office does not send email itself.
 
 Browser storage is not a backup or an encrypted vault. Clearing website data, private browsing, device loss or browser eviction can remove local work. Complete backups are not encrypted and include signature images; keep them private. Restore supports complete V3 backups; the older PDF-only ZIP can still be restored by reopening the PDFs it contains. Close other app tabs before restoring and reload afterwards.
 
@@ -45,15 +51,15 @@ Browser storage is not a backup or an encrypted vault. Clearing website data, pr
 - **Sheets:** up to 10 MB per import, 2,000 rows and 100 columns per sheet, and 50,000 populated cells per workbook import. The visible grid pages through 50 rows and 20 columns at a time so phones do not render the whole workbook at once. Large imports may still be slow on a phone.
 - **Formulas:** arithmetic, percentages, comparisons, relative/absolute cell references, ranges, cross-sheet references, SUM, AVERAGE, MIN, MAX, COUNT, COUNTA, ROUND, ABS, IF, AND, OR, NOT. IF currently evaluates both branches. Unsupported expressions show an explicit error; formulas are never executed as JavaScript. This is a focused formula engine, not full Excel compatibility.
 - **Excel compatibility:** charts, macros, pivots, external workbook links, complex styles/validation, merged cells and advanced formulas are not preserved in the editable model. Export makes a new simplified workbook. Unsupported formulas export as text. Sorting keeps references address-based; renaming a sheet requires updating references to its old name. Original XLSX files are retained. CSV contains calculated values; potentially executable text is neutralized on export.
-- **Word import:** body text, basic headings, bold/italic and simple tables. No images, headers/footers, tracked changes, comments, footnotes, numbering fidelity or exact page layout. Imported DOCX originals are retained. Link text is preserved on Word export, but hyperlink targets are not yet exported. Pasted text is plain text; apply formatting in Writer.
-- **PDF from Writer:** a simplified layout, not a pixel-perfect Word conversion. Tables print as text columns with row rules. Built-in Latin fonts replace unsupported characters with `?`; use DOCX export when those characters matter. Spreadsheet PDF prints the first sheet across pages, with a 100-page safety limit; choose Excel for large sheets.
+- **Word import:** body text, basic headings, bold/italic and simple tables. No images, headers/footers, tracked changes, comments, footnotes, numbering fidelity or exact page layout. Imported DOCX originals are retained. Pasted text is plain text; apply formatting in Writer.
+- **PDF from Writer:** a simplified layout, not a pixel-perfect Word conversion. Tables print as grids with wrapped text. Built-in Latin fonts replace unsupported characters with `?`; use DOCX export when those characters matter. Spreadsheet PDF prints the first sheet across pages, with a 100-page safety limit; choose Excel for large sheets.
 - **PDF limits unchanged:** original PDF text editing, DOCX/PDF exact round trips, certificate signatures, remote signing, live collaboration, hosted links and independently verified secure redaction are not included. Standard PDFs/image batches are limited to 50 MB. XFA page assembly is rejected. Read-only field flags are not password or cryptographic protection. OCR extracts English text; it does not add a searchable PDF layer. Optimization does not guarantee a smaller file.
 
 ## Offline and startup
 
 Core PDF assets are precached. Office workspaces, Excel/Word support, OCR and Template Studio load only as needed and are cached after their assets have downloaded. Open and use the tools you need while online before taking them offline. A tool you have never opened is not guaranteed offline. Save important exports before leaving connectivity.
 
-The approved badge is bundled locally. `public/brand/office-pro-share.jpg` is provided for link/website thumbnails; some social platforms require an absolute image URL. Set that metadata to your existing public Pages image URL if needed. Home-screen icons are included in the manifest.
+The approved badge is bundled locally. `public/brand/office-share.jpg` is provided for link/website thumbnails; some social platforms require an absolute image URL. Set that metadata to your existing public Pages image URL if needed. Home-screen icons are included in the manifest.
 
 See `LOADING-SIZES.md` and `TEST-RESULTS.md` for actual measured sizes and verification limits.
 

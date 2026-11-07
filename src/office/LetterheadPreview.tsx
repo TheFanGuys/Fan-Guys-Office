@@ -1,0 +1,2 @@
+import {logoPath,contactLines,type Letterhead} from './letterhead';
+export default function LetterheadPreview({letterhead}:{letterhead?:Letterhead}){if(!letterhead?.enabled)return null;return <div className={"writer-letterhead "+letterhead.layout} aria-label="Fan Guys letterhead"><img src={'./'+logoPath(letterhead.layout)} alt="Blue Fan Guys company logo"/><div>{contactLines(letterhead).map((line,i)=><span key={i}>{line}</span>)}</div></div>;}

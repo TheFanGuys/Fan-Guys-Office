@@ -1,0 +1,4 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {writerTemplates} from '../src/office/writer-templates.ts';import {defaultLetterhead} from '../src/office/letterhead.ts';import {writeWord} from '../src/office/word-files.ts';import {writerPdf} from '../src/office/print.ts';
+const logo=new Uint8Array(await readFile('public/brand/fan-guys-blue-wide.jpg'));const header=defaultLetterhead();await mkdir('Ready-to-use-Word-templates',{recursive:true});await mkdir('../v31-layout-qa',{recursive:true});
+for(let i=0;i<writerTemplates.length;i++){const t=writerTemplates[i],content={type:'doc',content:t.content};const name=String(i+1).padStart(2,'0')+'-'+t.id;await writeFile('Ready-to-use-Word-templates/'+name+'.docx',await writeWord(content,t.name,header,logo));await writeFile('../v31-layout-qa/'+name+'.pdf',await writerPdf(content,t.name,header,logo));console.log(name);}

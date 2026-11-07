@@ -15,7 +15,7 @@ export async function officeBackup(){
 export async function restoreOfficeBackup(bytes:Uint8Array){
  const {unzipSync,strFromU8}=await import('fflate');let total=0;
  const files=unzipSync(bytes,{filter:file=>{total+=file.originalSize;if(total>250*1024*1024||file.originalSize>120*1024*1024)throw new Error('Backup expands beyond the 250 MB safety limit.');return true;}});
- if(!files['office-backup.json'])throw new Error('Choose a Fan Guys Office Pro complete backup ZIP.');
+ if(!files['office-backup.json'])throw new Error('Choose a Fan Guys Office complete backup ZIP.');
  const m=JSON.parse(strFromU8(files['office-backup.json']));if(m.format!=='fan-guys-office-backup'||m.version!==3||!Array.isArray(m.documents)||!Array.isArray(m.settings)||!Array.isArray(m.templates))throw new Error('Unsupported or damaged backup.');
  // Validate everything before starting the atomic restore; merge missing records, never replace current data.
  for(const doc of m.documents)if(typeof doc.id!=='string'||typeof doc.name!=='string'||!Number.isFinite(doc.pages)||!files[`documents/${doc.id}.pdf`]||!files[`originals/${doc.id}.pdf`])throw new Error('Backup has a missing PDF.');

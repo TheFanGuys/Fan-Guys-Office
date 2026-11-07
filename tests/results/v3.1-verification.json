@@ -1,0 +1,103 @@
+{
+  "engine": "Playwright WebKit 26.5",
+  "viewport": "390 \u00d7 844, mobile and touch",
+  "checks": [
+    {
+      "name": "Legacy database, signature, profile and template migrate in WebKit",
+      "passed": true
+    },
+    {
+      "name": "Cold visit stays below 10 MB decoded and excludes OCR/template downloads",
+      "passed": true
+    },
+    {
+      "name": "Core precache is installed; optional tools are absent from it",
+      "passed": true
+    },
+    {
+      "name": "Core viewer opens offline and uses 16px inputs / 44px controls",
+      "passed": true
+    },
+    {
+      "name": "Fill, save, and reopen standard form fields",
+      "passed": true
+    },
+    {
+      "name": "Both signature slots save, rename, place, replace and delete",
+      "passed": true
+    },
+    {
+      "name": "Quick check, X and date stamps can be placed, resized, moved and deleted",
+      "passed": true
+    },
+    {
+      "name": "White-out creates a movable/resizable/deletable visual cover",
+      "passed": true
+    },
+    {
+      "name": "Text tool supports tap-to-type and accessible text editing",
+      "passed": true
+    },
+    {
+      "name": "Prepare-then-share uses a ready file and a fresh active user tap",
+      "passed": true
+    },
+    {
+      "name": "Reorder / rotate / delete pages keeps field values and editable widgets",
+      "passed": true
+    },
+    {
+      "name": "Lock form fields exports a read-only copy without losing its values",
+      "passed": true
+    },
+    {
+      "name": "Merging another PDF warns before flattening and exports fixed forms",
+      "passed": true
+    },
+    {
+      "name": "OCR is loaded on demand, recognizes text, and is cached after use",
+      "passed": true
+    },
+    {
+      "name": "Template Studio loads only on demand, generates PDF, and its module caches",
+      "passed": true
+    },
+    {
+      "name": "Landscape layout and input sizes remain usable",
+      "passed": true
+    },
+    {
+      "name": "Sheets edit, calculate, undo, row editor, save and export Excel",
+      "passed": true
+    },
+    {
+      "name": "Writer edits, Word export and PDF handoff retain content",
+      "passed": true
+    },
+    {
+      "name": "Notes and job records save, link, survive navigation and backup",
+      "passed": true
+    },
+    {
+      "name": "Office inputs and controls fit phone; used workspaces load with origin unavailable",
+      "passed": true
+    },
+    {
+      "name": "No functional browser errors or external requests",
+      "passed": true
+    },
+    {
+      "name": "Branded Writer gallery fills job details and exports blue logos offline",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "consoleErrors": [
+    "ResizeObserver loop completed with undelivered notifications."
+  ],
+  "externalRequests": [],
+  "limits": [
+    "Native iOS share sheet was stubbed to verify file readiness and active user gesture; not an actual OS share.",
+    "No physical iPhone, notch/home-bar hardware, Apple Files destination, or real finger hardware tested."
+  ]
+}
