@@ -36,3 +36,6 @@
 .design-note{font-size:12px;color:#6f6f6f;line-height:1.45;margin:10px 0 0}
 .design-error{color:#b00020;font-size:14px}
 @media(max-width:900px){.design-layout{grid-template-columns:1fr}.design-preview{position:static;padding:12px}.design-preview.card{padding:18px 12px}}
+/* Template groups: wrap onto more lines instead of squeezing labels (Safari shrinks flex items). */
+.template-categories{flex-wrap:wrap;overflow:visible}
+.template-categories button{flex:0 0 auto;min-height:44px;white-space:nowrap}

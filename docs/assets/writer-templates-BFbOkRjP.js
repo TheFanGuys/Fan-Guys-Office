@@ -1,0 +1,1 @@
+export{I as writerTemplates}from"./OfficeHub-7m7mtLE9.js";
