@@ -1,11 +1,11 @@
 {
-  "precacheRawBytes": 9523812,
-  "precacheGzipBytes": 3718450,
+  "precacheRawBytes": 9527479,
+  "precacheGzipBytes": 3719225,
   "files": [
     {
       "file": "index.html",
       "bytes": 1065,
-      "gzipBytes": 513
+      "gzipBytes": 515
     },
     {
       "file": "manifest.webmanifest",
@@ -53,14 +53,14 @@
       "gzipBytes": 42329
     },
     {
-      "file": "assets/worker-engine-BCCrxWYm-DnK9LfdU.js",
+      "file": "assets/worker-engine-BCCrxWYm-CGsxHdUp.js",
       "bytes": 689503,
-      "gzipBytes": 119719
+      "gzipBytes": 119718
     },
     {
-      "file": "assets/square-BKjl-Bnv.js",
+      "file": "assets/square-DKVp_7ag.js",
       "bytes": 176,
-      "gzipBytes": 170
+      "gzipBytes": 168
     },
     {
       "file": "assets/signature_pad-WSRARgwh.js",
@@ -93,29 +93,29 @@
       "gzipBytes": 3113
     },
     {
-      "file": "assets/index-DYv-SKJp.js",
-      "bytes": 785185,
-      "gzipBytes": 288428
+      "file": "assets/index-_sRmMn5t.js",
+      "bytes": 786510,
+      "gzipBytes": 288780
     },
     {
-      "file": "assets/index-BYebcZi3.css",
-      "bytes": 60121,
-      "gzipBytes": 12184
+      "file": "assets/index-B3Y1Q-57.css",
+      "bytes": 62468,
+      "gzipBytes": 12614
     },
     {
-      "file": "assets/file-plus-corner-C6kGvbMT.js",
+      "file": "assets/file-plus-corner-CtyFvH_Q.js",
       "bytes": 402,
-      "gzipBytes": 279
+      "gzipBytes": 277
     },
     {
-      "file": "assets/browser-BKLM0ThC-BCLQGPD6-BVK2OBrb.js",
+      "file": "assets/browser-BKLM0ThC-BCLQGPD6-DX-W_rT7.js",
       "bytes": 19411,
-      "gzipBytes": 4375
+      "gzipBytes": 4376
     },
     {
-      "file": "assets/arrow-up-FioBV2rc.js",
+      "file": "assets/arrow-up-DJgDuFNn.js",
       "bytes": 328,
-      "gzipBytes": 231
+      "gzipBytes": 227
     },
     {
       "file": "assets/__vite-browser-external-BwpP9LFt.js",
@@ -123,24 +123,24 @@
       "gzipBytes": 108
     },
     {
-      "file": "assets/SignatureDialog-PqTV8deL.js",
-      "bytes": 6408,
-      "gzipBytes": 2416
+      "file": "assets/SignatureDialog-BmgpXeRO.js",
+      "bytes": 6403,
+      "gzipBytes": 2415
     },
     {
-      "file": "assets/PdfWorkspace-BeDjnn45.js",
+      "file": "assets/PdfWorkspace-D-s_f_xo.js",
       "bytes": 1209826,
       "gzipBytes": 288415
     },
     {
-      "file": "assets/PageOrganizer-Cmc0TVgv.js",
+      "file": "assets/PageOrganizer-CET_sYPA.js",
       "bytes": 6859,
-      "gzipBytes": 2702
+      "gzipBytes": 2703
     },
     {
-      "file": "assets/ExportDialog-Y2vcYMa4.js",
+      "file": "assets/ExportDialog-CGVCQKyz.js",
       "bytes": 4520,
-      "gzipBytes": 1839
+      "gzipBytes": 1838
     }
   ]
 }

@@ -20,6 +20,21 @@ WHAT’S INCLUDED
 - Complete backup and restore for PDFs AND the new office files.
 - Existing PDF tools and GFY form fixes retained.
 
+NEW: MORE TEMPLATES AND CARDS & FLYERS
+- Writer now has 31 templates in 6 groups: Letters, Job forms, Service,
+  Administration, Business forms, Safety, and Contracts & legal.
+  Business forms: invoice, estimate, receipt, past-due reminder, W-9 and
+  insurance request, customer/vendor info, time sheet, travel and mileage log.
+  Safety: job hazard analysis, aerial lift pre-use inspection, toolbox talk,
+  incident report, lockout/tagout log.
+  Contracts & legal: subcontractor, independent contractor, mutual NDA,
+  annual maintenance agreement, installation warranty. These are starting
+  points, not legal advice. Have an attorney review them before relying on them.
+- Cards & flyers (home screen and menu): business cards in 3 styles and
+  flyers with an optional photo and tear-off phone tabs. Exports a 10-card
+  Letter sheet (fits 10-per-sheet 2 x 3.5 in card stock, print at 100%),
+  a print-shop card file with bleed, and a Letter flyer PDF.
+
 FAN GUYS TEMPLATES
 Open Writer. Choose a template or tap Show all 13 templates. Pick a saved
 job first if you want the app to fill in its available contact and site details.
